@@ -7,4 +7,10 @@
   justify-content: center;
   align-items: center;
   height: 100svh;
+  background: linear-gradient(
+    180deg,
+    #12181b 0%,
+    #262935 50%,
+    #12181b 100%
+  ) !important;
 }
