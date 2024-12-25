@@ -2,7 +2,7 @@
   --mantine-color-body: #12181b !important;
 }
 
-.app {
+body {
   display: flex;
   justify-content: center;
   align-items: center;
