@@ -13,7 +13,7 @@ const Platforms = () => {
       <PlatformIcon link="https://www.linkedin.com/in/netanel-mordakhay">
         <FaLinkedin size={30} title="Linkedin profile" />
       </PlatformIcon>
-      <PlatformIcon link="../src/assets/Netanel Mordakhay CV.pdf">
+      <PlatformIcon link="../assets/Netanel Mordakhay CV.pdf">
         <TbFileCv size={30} title="Download CV" />
       </PlatformIcon>
     </Group>
