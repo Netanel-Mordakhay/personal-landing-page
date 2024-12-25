@@ -14,3 +14,9 @@ body {
     #12181b 100%
   ) !important;
 }
+
+.particles {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
