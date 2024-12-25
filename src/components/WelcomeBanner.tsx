@@ -7,7 +7,12 @@ import { personalText } from "../constants/personal-text";
 
 const WelcomeBanner = () => {
   return (
-    <Stack align="center" justify="center" maw="90svw">
+    <Stack
+      align="center"
+      justify="center"
+      maw="90svw"
+      className={classes.textShadow}
+    >
       <TopAvatar />
 
       <Title order={4}>My Portfolio Is on Its Way 🔧</Title>
