@@ -15,7 +15,7 @@ const options: ISourceOptions = {
       consent: false,
       distance: 150,
       enable: true,
-      opacity: 0.4,
+      opacity: 0.2,
 
       width: 1,
     },
@@ -28,7 +28,7 @@ const options: ISourceOptions = {
       enable: true,
     },
     number: {
-      value: 20,
+      value: 30,
     },
     opacity: {
       animation: {
@@ -37,8 +37,8 @@ const options: ISourceOptions = {
         sync: false,
       },
       value: {
-        min: 0.1,
-        max: 0.3,
+        min: 0.0,
+        max: 0.1,
       },
     },
     shape: {
