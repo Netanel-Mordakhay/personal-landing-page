@@ -1,22 +1,34 @@
-import { Stack, Title, Text } from "@mantine/core";
+import { Stack, Title, Text, Image } from "@mantine/core";
 import Typewriter from "typewriter-effect";
-import { PiCodeFill } from "react-icons/pi";
+import { motion } from "motion/react";
 import Platforms from "./Platforms";
+import icon from "../assets/icon.webp";
 
 const WelcomeBanner = () => {
   return (
     <Stack align="center" justify="center" maw="90svw">
-      <PiCodeFill size={100} />
+      <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
+        <Image
+          src={icon}
+          radius="15svw"
+          h="30svw"
+          w="30svw"
+          maw={240}
+          mah={240}
+        />
+      </motion.div>
+
       <Title order={4}>My Portfolio Is on Its Way 🔧</Title>
       <Text>Hey there! I'm Netanel.</Text>
       <Typewriter
         options={{
           strings: [
-            "Software and Information Systems Engineering Student",
-            "Aspiring FullStack Developer",
+            "Software and Information Systems Engineering Student @ Ben-Gurion University",
+            "Passionate FullStack Developer in the Making",
             "Python Instructor",
             "Always Learning, Always Coding",
-            "Committed to Crafting Efficient Code",
+            "Dedicated to Writing Clean, Efficient, and Scalable Code",
+            "Problem-Solver with a Passion for Technology and Innovation",
           ],
           autoStart: true,
           loop: true,

@@ -6,7 +6,7 @@ import App from "./App.tsx";
 import { createTheme, MantineProvider } from "@mantine/core";
 
 const theme = createTheme({
-  fontFamily: '"Courier New", Courier, monospace',
+  //fontFamily: '"Courier New", Courier, monospace',
 });
 
 createRoot(document.getElementById("root")!).render(
